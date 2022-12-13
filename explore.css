@@ -1,0 +1,129 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Poppins:wght@300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kalam", cursive;
+  }
+  
+
+  
+main {
+    position:relative;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.third-page-background-wrapper {
+    position:absolute;
+    width:100vw;
+    left:0;
+    top:0;
+    z-index: -1;
+}
+
+.third-page-background-wrapper img{
+    width:100vw;
+    object-fit: cover;
+
+}
+
+nav {
+    display:flex;
+    padding-top:2rem;
+}
+
+.logo {
+    width:250px;
+    padding-left:1.5rem;
+    margin-right:auto;
+}
+
+nav .map {
+    margin-left:auto;
+    margin-right:2rem;
+}
+.hamburger {
+    width:30px;
+    margin-right:2rem;
+
+}
+
+.hamburger path {
+    fill:white;
+}
+
+h1 {
+    color:white;
+    font-size:3rem;
+    text-align: center;
+}
+
+img {
+    width:300px;
+}
+
+.explore-pictures{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.explore-pictures div:nth-child(1) {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.explore-pictures div:nth-child(2) {
+    grid-row:1/2;
+    grid-column: 2/3;
+}
+.explore-pictures div:nth-child(3) {
+    grid-row:1/2;
+    grid-column: 3/4;
+}
+.explore-pictures div:nth-child(4) {
+    grid-row:2/3;
+    grid-column: 1/2;
+}
+.explore-pictures div:nth-child(5) {
+    grid-row:2/3;
+    grid-column: 2/3;
+}
+.explore-pictures div:nth-child(6) {
+    grid-row:2/3;
+    grid-column: 3/4;
+}
+
+.explore-image {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    background: transparent;
+  color: white;
+  border: white 3px solid;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  width: 70%;
+  border-radius: 0.6rem;
+  padding: 0.2rem;
+  cursor: pointer;
+  margin-top:1rem;
+}
+
+button a {
+    color:white;
+    text-decoration: none;
+}
+
+button a:hover {
+    color:white;
+}
